@@ -16,8 +16,14 @@ header {
     display: flex;
     font-family: 'Asul', sans-serif;
     justify-content: flex-start;
+    align-items: center;
     font-size: 2em;
     background-image: url('assets/background-img.png');
+}
+
+h1 {
+    font-family: 'Asul', sans-serif;
+    font-size: 2em;
 }
 
 * {
@@ -85,7 +91,7 @@ p {
 }
 
 .img-contain {
-    height: 70%;
+    height: 55%;
 }
 
 .img-contain img {
