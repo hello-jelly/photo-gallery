@@ -1,7 +1,3 @@
-import images from '../data/images.js';
-
-const exampleImage = images[0];
-
 function renderImage(exampleImage) {
     return `<li class="card">
     <div>
