@@ -1,2 +1,52 @@
 /* font-family: 'Asul', sans-serif; semi-serif text*/
 /* font-family: 'Kavivanar', cursive; headers and titles*/
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Kavivanar', cursive;
+    font-size: 1.5em;
+    background-color: gray;
+    padding: 15px;
+}
+
+.search-bar {
+    flex-direction: row;
+}
+
+.img-cards {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.card {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+img {
+    width: 20vw;
+}
+
+li {
+    list-style: none;
+}
