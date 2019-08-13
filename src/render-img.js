@@ -1,14 +1,17 @@
-function renderImage() {
+import images from '../data/images.js';
+
+const exampleImage = images[0];
+
+function renderImage(exampleImage) {
     return `<li class="card">
-        <div>
-            <h2>UniWhal</h2>
-            <p>Horns: 1</p>
-        </div>
-        <p class="hidden">A unicorn and a narwhal nuzzling their horns</p>
-        <div class="img-contain">
-            <img src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="A unicorn and a narwhal nuzzling their horns">
-        </div>
-    </li>`;
+    <div>
+        <h2>${exampleImage.title}</h2>                                
+        <p>Horns: ${exampleImage.horns}</p>
+    </div>
+    <div class="img-contain" title="${exampleImage.description}">
+            <img src="${exampleImage.url}"  alt="${exampleImage.description}">
+    </div>
+</li>`;
 }
 
 export default renderImage;
