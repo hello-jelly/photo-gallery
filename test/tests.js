@@ -3,6 +3,3 @@ import './render-img.test.js';
 
 // // individual test files...
 // import './whatever.test.js';
-QUnit.done(() => {
-    app.delete();
-}); 
