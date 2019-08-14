@@ -1,7 +1,5 @@
 import './html-equal.js';
-import { app } from '../src/services/firebase.js'; 
+import './render-img.test.js';
+
 // // individual test files...
 // import './whatever.test.js';
-QUnit.done(() => {
-    app.delete();
-}); 

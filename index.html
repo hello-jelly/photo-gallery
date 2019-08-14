@@ -5,89 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Photo Gallery</title>
+    <link rel="stylesheet" href="src/reset.css">
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css?family=Asul|Kavivanar&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img class="logo" src="./assets/horny-logo.png" alt="horny logo, it's a pun">
-        <h1>The Horny Gallery</h1>
+        <img class="logo" src="./assets/logo-img.png" alt="horny logo, it's a pun">
+        <h1>The Horny Friends Gallery</h1>
     </header>
 
     <Main>
         <section class="search-bar">
-            <input type="text">
-            <button class="button">YO</button>
+            <select>
+                <option value="one-horn">1 Horn</option>
+                <option value="two-horn">2 Horns</option>
+                <option value="three-horn">3 Horns</option>
+                <option value="one-hundred-horn">100 Horns</option>
+            </select>
+            <button class="button">SORT</button>
         </section>
 
-       
-            <ul class="cards">
-                <li class="card">
-                    <div>
-                        <h2>UniWhal</h2>
-                        <p>Horns: 1</p>
-                    </div>
-                    <p class="hidden">A unicorn and a narwhal nuzzling their horns</p>
-                    <div class="img-contain">
-                        <img src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="A unicorn and a narwhal nuzzling their horns">
-
-                    </div>
-                </li>
-
-                <li class="card">
-                    <div>
-                        <h2>UniWhal</h2>
-                        <p>Horns: 1</p>
-                    </div>
-                    <p class="hidden">A unicorn and a narwhal nuzzling their horns</p>
-                    <div class="img-contain">
-                        <img src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="A unicorn and a narwhal nuzzling their horns">
-
-                    </div>
-                </li>
-
-                <li class="card">
-                    <div>
-                        <h2>UniWhal</h2>                                
-                        <p>Horns: 1</p>
-                    </div>
-                    <p class="hidden">A unicorn and a narwhal nuzzling their horns</p>
-                    <div class="img-contain">
-                            <img src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="A unicorn and a narwhal nuzzling their horns">
-    
-                        </div>
-                </li>
-
-                <li class="card">
-                    <div>
-                        <h2>UniWhal</h2>
-                        <p>Horns: 1</p>
-                    </div>
-                    <p class="hidden">A unicorn and a narwhal nuzzling their horns</p>
-                    <div class="img-contain">
-                            <img src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="A unicorn and a narwhal nuzzling their horns">
-    
-                        </div>
-                </li>
-
-                <li class="card">
-                    <div>
-                        <h2>UniWhal</h2>                                
-                        <p>Horns: 1</p>
-                    </div>
-                    
-                    <p class="hidden">A unicorn and a narwhal nuzzling their horns</p>
-                    <div class="img-contain">
-                            <img src="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="A unicorn and a narwhal nuzzling their horns">
-    
-                    </div>
-                </li>
-            </ul>
-    
+        <ul class="cards" id="cards"></ul>
+        
     </Main>
 
     <footer>
 
     </footer>
+    <script src="./src/app.js" type="module"></script>
 </body>
 </html>
